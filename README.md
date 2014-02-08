@@ -23,6 +23,6 @@ Follow these instructions to find text and replace it within the database tables
 Important note: ***MAKE SURE YOU HAVE A CURRENT BACKUP OF YOUR DATABASE BEFORE USING THESE TOOLS***
 
 1. Select the database tables you want to run the find/replace on.
-2. Enter the text to find in the first text column, and the corresponding text to replace in the 2ns column. If you would like to automatically add the current hosts domain and website root, click the Auto Fill Current Host button.
+2. Enter the text to find in the first text column, and the corresponding text to replace in the 2nd column. If you would like to automatically add the current hosts domain and website root, click the Auto Fill Current Host button.
 3. To verify and perform a non-destructive search, click on submit. You should see a short summary for the text and table parameters you have chosen.
 4. To perform a destructive write to the database with the changes, check the box Commit Changes and then click submit.
