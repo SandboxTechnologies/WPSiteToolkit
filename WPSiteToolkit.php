@@ -47,7 +47,7 @@ class WPSiteToolkit {
         $this->dbCommit = isset($_POST['database-commit']) ? true : false;
         $this->dbTables = $this->getAllTables();
 
-        $this->dbOptions = array('find' => (isset($_POST['database-find'])) ? array_filter($_POST['database-find']) : array(), 'replace' => (isset($_POST['database-replace'])) ? $_POST['database-replace'] : array(), 'tables' => (isset($_POST['database-tables'])) ? $_POST['database-tables'] : $this->dbTables);
+        $this->dbOptions = array('find' => (isset($_POST['database-find'])) ? array_filter($_POST['database-find']) : array(), 'replace' => (isset($_POST['database-replace'])) ? $_POST['database-replace'] : array(), 'tables' => (isset($_POST['database-tables'])) ? $_POST['database-tables'] : array());
         $this->dbResult = array_fill_keys($this->dbOptions['find'], array_fill_keys($this->dbTables, 0));
     }
 
